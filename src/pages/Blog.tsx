@@ -14,7 +14,7 @@ const BlogPostCard = ({ title, excerpt, date, category, imageUrl }: BlogPost) =>
       boxShadow="sm"
       _hover={{ transform: 'translateY(-5px)', transition: 'all 0.3s' }}
     >
-      <Box h="200px" bgImage={`url(${imageUrl})`} bgSize="cover" position="center" />
+      <Box h="200px" bgImage={`url(${imageUrl})`} bgSize="cover" bgPosition="center" />
       <Box p={6}>
         <Flex mb={4} gap={2}>
           <Button size="sm" colorScheme="brand" variant="outline">

@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Grid, Card, CardContent, CardActions, Button, Chip } from '@mui/material';
+import { Box, Container, Typography, Grid, Card, CardContent, CardActions, Button, Chip, CardMedia } from '@mui/material';
 import { motion } from 'framer-motion';
 import { Link as RouterLink } from 'react-router-dom';
 
@@ -81,7 +81,7 @@ const Events = () => {
       <Container sx={{ py: 8 }}>
         <Grid container spacing={4}>
           {events.map((event, index) => (
-            <Grid item xs={12} md={6} key={event.id}>
+            <Grid key={event.id} columns={{ xs: 12, md: 6 }}>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}

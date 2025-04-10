@@ -2,7 +2,6 @@ import { Box, Container, Flex, Heading, List, ListItem, Text, useColorModeValue 
 import { Image } from '@chakra-ui/react'
 
 const About = () => {
-  const bgColor = useColorModeValue('white', 'gray.800')
   const textColor = useColorModeValue('gray.800', 'white')
 
   return (

@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Text, useColorModeValue, SimpleGrid, Icon } from '@chakra-ui/react'
+import { Box, Container, Heading, Text, useColorModeValue, SimpleGrid, Icon } from '@chakra-ui/react'
 import { FaRunning, FaBicycle, FaSwimmer, FaLaptop, FaFlask, FaUsers } from 'react-icons/fa'
 import { Service } from '../types'
 
